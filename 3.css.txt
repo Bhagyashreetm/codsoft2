@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+<li>Fruits
+<ul>
+<li>Apple</li>
+<li>Mango</li>
+<li>Banana</li>
+<li>Papaya</li>
+</ul>
+<li>Vegetables
+<ul>
+<li>Carrot</li>
+<li>Brinjal</li>
+<li>Onion</li>
+<li>Betroot</li>
+</ul>
+</li>
+<li>Cereal</li>
+<li>Nuts</li>
+</ul>
+<body>
+<html>

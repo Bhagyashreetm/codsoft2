@@ -1,0 +1,12 @@
+.background{
+    background-image: url("home.jpg");
+    background-color:#555;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 5px;
+    padding: 5px;
+}

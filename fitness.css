@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fitness Training Institute</title>
+</head>
+<body>
+    <header>
+        <h1>Fitness Training Institute</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Your Journey to a Healthier You</h2>
+        <p>Join our fitness classes and achieve your fitness goals with expert trainers.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+    <section class="classes">
+        <h2>Our Classes</h2>
+        <div class="class-card">
+            <img src="class1.jpg" alt="Class 1">
+            <h3>Cardio Blast</h3>
+            <p>A high-intensity cardio workout to boost your metabolism.</p>
+        </div>
+        <div class="class-card">
+            <img src="class2.jpg" alt="Class 2">
+            <h3>Strength Training</h3>
+            <p>Build muscle and increase your strength with our dedicated classes.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Fitness Training Institute. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        /* ... (your existing CSS code) ... */
+    </style>
+    <script>
+        function submitForm() {
+            // Get input values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Validate inputs
+            if (name.trim() === "") {
+                alert("Please enter your name.");
+                return;
+            }
+
+            if (email.trim() === "" || !isValidEmail(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+
+            if (message.trim() === "") {
+                alert("Please enter a message.");
+                return;
+            }
+
+            // Assuming some validation before submission
+            // Simulating form submission for demonstration purposes
+            // In a real scenario, you would use AJAX to submit the form data
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('thank-you').style.display = 'block';
+        }
+
+        function isValidEmail(email) {
+            // Simple email format validation
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailPattern.test(email);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fitss.css">
+    <title>Fitness Training Institute</title>
+</head>
+<body>
+    <header>
+        <h1>Fitness Training Institute</h1>
+        <nav>
+            <ul>
+                <li><a href="getstarted.html">Photos</a></li>
+           	    <li><a href="aboutus.html">About Us</a></li>
+        	    <li><a href="team.html">Trainers</a></li>
+        	    <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <section id="contact">
+        <section id="contact">
+            <a href="feed.html"></a>
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you. Feel free to reach out!</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required style="width: 500px; height: 20px; font-size: 16px;"><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required style="width: 700px; height: 20px; font-size: 16px;"><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required style="width: 1000px; height: 300px; font-size: 16px;"></textarea><br>
+                <a href="feedback.html"><button type="button" onclick="submitForm()">Submit</button></a>
+            </form>
+        </section>
+    </section>
+<style>
+	.hero {
+    		text-align: center;
+    		padding: 100px 0;
+    		background-color: #555;
+    		color: #fff;
+	}
+	.cta-button {
+    			display: inline-block;
+    			background-color: #0000ff;
+    			color: #fff;
+   			padding: 10px 20px;
+    			border-radius: 5px;
+    			text-decoration: none;
+		}
+</style>
+</div>
+<style>
+	.hero {
+    		text-align: center;
+    		padding: 100px 0;
+    		background-color: #555;
+    		color: #fff;
+	}
+	.cta-button {
+    			display: inline-block;
+    			background-color: #00ffff;
+    			color: #000000;
+   			padding: 10px 20px;
+    			border-radius: 5px;
+    			text-decoration: none;
+		}
+</style>
+<section class="hero">
+	<ul><a href="myweb.html" class="cta-button">Back</a></ul>
+</section>
+</body>
+</html>

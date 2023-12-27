@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #contact {
+            margin-top: 50px;
+        }
+
+        #contact form {
+            display: inline-block;
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #contact label,
+        #contact input,
+        #contact textarea,
+        #contact button {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #thank-you {
+            display: none;
+            margin-top: 50px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #c642bf;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #thank-you h1 {
+            color: white;
+        }
+    </style>
+    <script>
+        function submitForm() {
+            // Assuming some validation before submission
+            // Simulating form submission for demonstration purposes
+            // In a real scenario, you would use AJAX to submit the form data
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('thank-you').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you. Feel free to reach out!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required style="width: 500px; font-size: 16px;"><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required style="width: 700px; font-size: 16px;"><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required style="width: 1000px; height: 300px; font-size: 16px;"></textarea><br>
+            
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+
+    <section id="thank-you">
+        <div class="thank-you-message">
+            <h1>Thank You for Your Feedback!</h1>
+            <p>We appreciate your input and will look into it.</p>
+        </div>
+    </section>
+</body>
+</html>
